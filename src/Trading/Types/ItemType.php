@@ -691,6 +691,12 @@ class ItemType extends \DTS\eBaySDK\Types\BaseType
             'attribute' => false,
             'elementName' => 'ConditionDescription'
         ],
+        'ConditionDescriptors' => [
+            'type' => ConditionDescriptorsType::class,
+            'repeatable' => false,
+            'attribute' => false,
+            'elementName' => 'ConditionDescriptors'
+        ],
         'ConditionDisplayName' => [
             'type' => 'string',
             'repeatable' => false,
