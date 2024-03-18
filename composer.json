@@ -1,5 +1,5 @@
 {
-    "name": "theprashil/ebay-sdk-php",
+    "name": "shrestharikesh/ebay-sdk-php",
     "description": "An eBay SDK for PHP. Fork of dts/ebay-sdk-php with support for PHP 8.",
     "keywords": ["ebay", "api", "sdk"],
     "type": "library",
@@ -13,6 +13,10 @@
         {
           "name": "Benjamin Morel",
           "email": "benjamin.morel@gmail.com"
+        },
+        {
+          "name": "Rikesh Shrestha",
+          "email": "er.shrestharikesh@gmail.com"
         }
     ],
     "require": {
@@ -20,7 +24,7 @@
         "ext-curl": "*",
         "ext-libxml": "*",
         "guzzlehttp/guzzle": "^6.0 || ^7.0",
-        "guzzlehttp/psr7": "^1.0",
+        "guzzlehttp/psr7": "^2.6",
         "guzzlehttp/promises": "^1.1"
     },
     "require-dev": {
