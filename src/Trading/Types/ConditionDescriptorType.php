@@ -7,6 +7,7 @@ use DTS\eBaySDK\Types\BaseType;
 /**
  * @property string $Name
  * @property string $Value
+ * @property string $AdditionalInfo
  */
 
 class ConditionDescriptorType extends BaseType
@@ -23,6 +24,12 @@ class ConditionDescriptorType extends BaseType
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Value'
+        ],
+        'AdditionalInfo' => [
+            'type' => 'string',
+            'repeatable' => false,
+            'attribute' => false,
+            'elementName' => 'AdditionalInfo'
         ],
     ];
 
